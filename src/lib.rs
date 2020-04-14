@@ -1,4 +1,4 @@
-#[derive(Debug)]
+#[derive(Clone, Debug)]
 pub struct Backtrace(pub js_sys::Error);
 
 impl Backtrace {
